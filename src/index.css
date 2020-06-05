@@ -1,41 +1,56 @@
 body {
-  font-family: 'DM Mono', monospace;
-  background-color: rgb(0, 0, 10);
-  margin: 2%;
+  font-family: 'Cutive Mono', monospace;
+  background: url("https://i.imgur.com/chsneNO.jpg") no-repeat center center fixed;
+  opacity: 1;
+  margin: 0.5%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💻</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 .Header {
-  color: #a8ff8e;
+  color: white;
   padding: 1%;
   margin: 5%;
   width: 70%;
+  
 
   display: inline-block;
 }
 
 .MainContent {
-  color: #ea483a;
+  color: white;
   margin: 5%;
-  padding: 1%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-bottom: solid white;
 }
 
 .Footer {
-  color: #eeee64;
+  color: white;
   margin: 5%;
   padding: 1%;
+  padding-bottom: 5%;
   text-align: center;
-  
 }
 
 .margin {
-  border: 10px solid #feb8f7; 
-  border-radius: 10%;
+  border: 0em solid white; 
+  border-radius: 0%;
   background: black;
-  border-style: ridge;
+  border-style: solid;
+  opacity: 0.9;
+  width: 100%;
+  height: max-content;
 }
 
 .square {
-  background-color:#00cafa;
+  background-color:white;
   width:2em;
   height:2em;
   border-style: dotted;
