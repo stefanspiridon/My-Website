@@ -5,6 +5,7 @@ import Header from './components/Header';
 import * as serviceWorker from './serviceWorker';
 import MainContent from './components/MainContent';
 import Footer from './components/Footer'
+import Pisici from './components/Pisici'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,6 +13,7 @@ ReactDOM.render(
       <Header />
       <MainContent />
       <Footer />
+      <Pisici />
     </div>
   </React.StrictMode>,
   document.getElementById('root')
